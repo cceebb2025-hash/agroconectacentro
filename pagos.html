@@ -1,16 +1,74 @@
-<!-- ================== PAGOS.HTML ================== -->
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pagos Digitales</title>
 <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<h2>Pagos Digitales</h2>
-<form>
-<input type="text" placeholder="Número de tarjeta">
-<input type="text" placeholder="Nombre">
-<input type="text" placeholder="Fecha">
-<button>Pagar</button>
-</form>
+
+<header class="header">
+    <h1>🌱 AgroConectaCentro</h1>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="pagos.html">Pagos</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="reportes.html">Reportes</a></li>
+            <li><a href="soporte.html">Soporte</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="section">
+
+    <h2>💳 Pagos Digitales</h2>
+    <p>Realiza tus pagos de forma segura</p>
+
+    <div class="payment-container">
+
+        <!-- Tarjeta visual -->
+        <div class="card-preview">
+            <p class="card-number">**** **** **** 1234</p>
+            <p class="card-name">Nombre del titular</p>
+        </div>
+
+        <!-- Formulario -->
+        <form class="form">
+            <input type="text" placeholder="Número de tarjeta" required>
+            <input type="text" placeholder="Nombre del titular" required>
+
+            <div class="row">
+                <input type="text" placeholder="MM/AA" required>
+                <input type="text" placeholder="CVV" required>
+            </div>
+
+            <button type="submit" class="btn">Pagar ahora</button>
+        </form>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <h2>🔒 Seguridad</h2>
+    <div class="grid">
+        <div class="card">✔ Transacciones seguras</div>
+        <div class="card">✔ Protección de datos</div>
+        <div class="card">✔ Pago confiable</div>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 AgroConectaCentro</p>
+</footer>
+
 </body>
 </html>
