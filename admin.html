@@ -1,13 +1,86 @@
-<!-- ================== ADMIN.HTML ================== -->
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel Administrativo</title>
 <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<h2>Panel Administrativo</h2>
-<button>Gestionar usuarios</button>
-<button>Gestionar productos</button>
-<button>Ver reportes</button>
+
+<header class="header">
+    <h1>🌱 AgroConectaCentro</h1>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="pagos.html">Pagos</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="reportes.html">Reportes</a></li>
+            <li><a href="soporte.html">Soporte</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="section">
+
+    <h2>📊 Panel Administrativo</h2>
+    <p>Control y gestión del sistema AgroConectaCentro</p>
+
+    <!-- TARJETAS RESUMEN -->
+    <div class="grid">
+
+        <div class="card stat">
+            <h3>👥 Usuarios</h3>
+            <p>120 registrados</p>
+        </div>
+
+        <div class="card stat">
+            <h3>📦 Productos</h3>
+            <p>85 disponibles</p>
+        </div>
+
+        <div class="card stat">
+            <h3>🛒 Ventas</h3>
+            <p>$5.000.000</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <h2>⚙️ Acciones Administrativas</h2>
+
+    <div class="grid">
+
+        <a href="usuarios.html" class="card action">👤 Gestionar usuarios</a>
+        <a href="productos.html" class="card action">📦 Gestionar productos</a>
+        <a href="reportes.html" class="card action">📊 Ver reportes</a>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <h2>📢 Actividad Reciente</h2>
+
+    <div class="activity">
+        <p>✔ Usuario registrado correctamente</p>
+        <p>✔ Producto agregado al sistema</p>
+        <p>✔ Pago realizado con éxito</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 AgroConectaCentro</p>
+</footer>
+
 </body>
 </html>
