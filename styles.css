@@ -286,3 +286,36 @@ footer {
     border-radius: 10px;
     border: 1px solid #ccc;
 }
+
+/* TARJETAS DE ESTADÍSTICAS */
+.stat {
+    background: linear-gradient(135deg, #43a047, #66bb6a);
+    color: white;
+}
+
+/* ACCIONES */
+.action {
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action:hover {
+    background: #e8f5e9;
+}
+
+/* ACTIVIDAD */
+.activity {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.activity p {
+    margin: 10px 0;
+}
