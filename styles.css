@@ -119,3 +119,46 @@ footer {
     text-align: center;
     padding: 15px;
 }
+/* FORMULARIO BONITO */
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form input:focus {
+    border-color: #4caf50;
+}
+
+/* BOTÓN */
+.btn {
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2e7d32;
+}
