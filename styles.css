@@ -242,3 +242,47 @@ footer {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+/* CONTENEDOR PRODUCTOS */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* LISTADO */
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ITEM */
+.product-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product-item:hover {
+    transform: translateX(5px);
+}
+
+/* STOCK */
+.stock {
+    display: block;
+    margin-top: 5px;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+/* SELECT */
+.form select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
