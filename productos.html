@@ -1,18 +1,83 @@
-<!-- ================== PRODUCTOS.HTML ================== -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Productos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestión de Productos</title>
 <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<h2>Gestión de Productos</h2>
-<form>
-<input type="text" placeholder="Nombre del producto">
-<input type="number" placeholder="Precio">
-<input type="number" placeholder="Cantidad">
-<button>Guardar</button>
-</form>
+
+<header class="header">
+    <h1>🌱 AgroConectaCentro</h1>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="pagos.html">Pagos</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="reportes.html">Reportes</a></li>
+            <li><a href="soporte.html">Soporte</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="section">
+
+    <h2>📦 Gestión de Productos</h2>
+    <p>Registra y administra los productos agrícolas</p>
+
+    <div class="product-container">
+
+        <!-- FORMULARIO -->
+        <form class="form">
+            <input type="text" placeholder="Nombre del producto" required>
+            <input type="number" placeholder="Precio ($)" required>
+            <input type="number" placeholder="Cantidad disponible" required>
+
+            <select required>
+                <option value="">Seleccione categoría</option>
+                <option>Frutas</option>
+                <option>Verduras</option>
+                <option>Granos</option>
+            </select>
+
+            <button type="submit" class="btn">Guardar Producto</button>
+        </form>
+
+        <!-- LISTADO DE PRODUCTOS -->
+        <div class="product-list">
+
+            <div class="product-item">
+                <h3>Tomate</h3>
+                <p>$2.000 / kg</p>
+                <span class="stock">Disponible: 50 kg</span>
+            </div>
+
+            <div class="product-item">
+                <h3>Papa</h3>
+                <p>$1.500 / kg</p>
+                <span class="stock">Disponible: 80 kg</span>
+            </div>
+
+            <div class="product-item">
+                <h3>Maíz</h3>
+                <p>$1.200 / kg</p>
+                <span class="stock">Disponible: 100 kg</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 AgroConectaCentro</p>
+</footer>
+
 </body>
 </html>
