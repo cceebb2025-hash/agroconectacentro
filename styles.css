@@ -319,3 +319,32 @@ footer {
 .activity p {
     margin: 10px 0;
 }
+
+/* GRÁFICA SIMPLE */
+.chart {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+/* BARRAS */
+.bar {
+    width: 40px;
+    background: #66bb6a;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.bar:hover {
+    background: #2e7d32;
+}
