@@ -348,3 +348,26 @@ footer {
 .bar:hover {
     background: #2e7d32;
 }
+
+/* CONTENEDOR SOPORTE */
+.support-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* INFO LATERAL */
+.support-info {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.support-info h3 {
+    margin-top: 10px;
+    color: #2e7d32;
+}
